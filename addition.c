@@ -1,5 +1,9 @@
 #include<stdio.h>
+
+int sum(int num1, int num2);
+
 int main()
+
 {
 int num1;
 int num2;
@@ -16,4 +20,10 @@ scanf("%d" ,&num2);
 
 
     return 0;
+}
+int sum(int num1 ,int num2)
+
+{
+return num1+num2;
+
 }
