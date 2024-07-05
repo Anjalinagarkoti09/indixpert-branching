@@ -1,20 +1,19 @@
 #include<stdio.h>
-
+void addition();
 int main()
 
 {
-int num1;
-int num2;
-int sum=0;
+int a,b;
 
-printf("enter num1: ");
-scanf("%d" ,&num1);
+addition();
 
-printf("enter num2: ");
-scanf("%d" ,&num2);
- 
- sum=num1+num2;
- printf("the sum of two number is : %d" ,sum);
 
     return 0;
+}
+void addition()
+{
+int a=10;
+int b=20;
+printf(a+b);
+
 }
